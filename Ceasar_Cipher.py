@@ -39,22 +39,3 @@ while True:
             break
 
 
-# def encrypt(plain_text, shift_amount):
-#     cipher_text = ''
-#     for char in plain_text:
-#         position = alphabet.index(char)
-#         new_position = position + shift_amount
-#         new_letter = alphabet[new_position]
-#         cipher_text += new_letter
-#     print(f"The encoded text is '{cipher_text}'.")
-#
-#
-# def decrypt(cipher_text, shift_amount):
-#
-#         decrypted_text = ''
-#         for char in cipher_text:
-#             position = alphabet.index(char)
-#             new_position = position - shift_amount
-#             letter = alphabet[new_position]
-#             decrypted_text += letter
-#         print(f"The decoded text is '{decrypted_text}'.")
